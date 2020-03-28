@@ -6,7 +6,6 @@
 			<run>
 				<include name="grouptest"></include>
 				<include name="group1"></include>
-				<exclude name="group2"></exclude>
 			</run>
 		</groups>
 		<classes>
@@ -18,7 +17,6 @@
 		<groups>
 			<run>
 				<include name="grouptest"></include>
-				<exclude name="group1"></exclude>
 				<include name="group2"></include>
 			</run>
 		</groups>
