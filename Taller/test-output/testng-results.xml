@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="example test suite" duration-ms="65" started-at="2020-03-28T03:32:25Z" finished-at="2020-03-28T03:32:25Z">
+  <suite name="example test suite" duration-ms="73" started-at="2020-03-29T23:25:11Z" finished-at="2020-03-29T23:25:11Z">
     <groups>
+      <group name="group3">
+        <method signature="Taller1.cancelarCuenta()[pri:3, instance:com.academy.web.tests.Taller1@4b4523f8]" name="cancelarCuenta" class="com.academy.web.tests.Taller1"/>
+      </group> <!-- group3 -->
       <group name="group2">
-        <method signature="Taller1.cancelarCuenta()[pri:2, instance:com.academy.web.tests.Taller1@1f28c152]" name="cancelarCuenta" class="com.academy.web.tests.Taller1"/>
+        <method signature="Taller1.iniciarSesion()[pri:2, instance:com.academy.web.tests.Taller1@3327bd23]" name="iniciarSesion" class="com.academy.web.tests.Taller1"/>
+        <method signature="Taller1.iniciarSesion()[pri:2, instance:com.academy.web.tests.Taller1@4b4523f8]" name="iniciarSesion" class="com.academy.web.tests.Taller1"/>
       </group> <!-- group2 -->
       <group name="group1">
-        <method signature="Taller1.crearCuenta()[pri:1, instance:com.academy.web.tests.Taller1@66480dd7]" name="crearCuenta" class="com.academy.web.tests.Taller1"/>
+        <method signature="Taller1.crearCuenta()[pri:1, instance:com.academy.web.tests.Taller1@3327bd23]" name="crearCuenta" class="com.academy.web.tests.Taller1"/>
       </group> <!-- group1 -->
     </groups>
-    <test name="example run" duration-ms="26" started-at="2020-03-28T03:32:25Z" finished-at="2020-03-28T03:32:25Z">
+    <test name="example run" duration-ms="35" started-at="2020-03-29T23:25:11Z" finished-at="2020-03-29T23:25:11Z">
       <class name="com.academy.web.tests.Taller1">
-        <test-method status="PASS" signature="crearCuenta()[pri:1, instance:com.academy.web.tests.Taller1@66480dd7]" name="crearCuenta" duration-ms="6" started-at="2020-03-28T03:32:25Z" finished-at="2020-03-28T03:32:25Z">
+        <test-method status="PASS" signature="crearCuenta()[pri:1, instance:com.academy.web.tests.Taller1@3327bd23]" name="crearCuenta" duration-ms="8" started-at="2020-03-29T23:25:11Z" finished-at="2020-03-29T23:25:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- crearCuenta -->
-        <test-method status="PASS" signature="iniciarSesion()[pri:0, instance:com.academy.web.tests.Taller1@66480dd7]" name="iniciarSesion" is-config="true" duration-ms="0" started-at="2020-03-28T03:32:25Z" finished-at="2020-03-28T03:32:25Z">
+        <test-method status="PASS" signature="iniciarSesion()[pri:2, instance:com.academy.web.tests.Taller1@3327bd23]" name="iniciarSesion" duration-ms="4" started-at="2020-03-29T23:25:11Z" finished-at="2020-03-29T23:25:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iniciarSesion -->
-        <test-method status="PASS" signature="cerrarSesion()[pri:0, instance:com.academy.web.tests.Taller1@66480dd7]" name="cerrarSesion" is-config="true" duration-ms="0" started-at="2020-03-28T03:32:25Z" finished-at="2020-03-28T03:32:25Z">
+        <test-method status="PASS" signature="cerrarSesion()[pri:0, instance:com.academy.web.tests.Taller1@3327bd23]" name="cerrarSesion" is-config="true" duration-ms="0" started-at="2020-03-29T23:25:11Z" finished-at="2020-03-29T23:25:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cerrarSesion -->
       </class> <!-- com.academy.web.tests.Taller1 -->
     </test> <!-- example run -->
-    <test name="example run2" duration-ms="5" started-at="2020-03-28T03:32:25Z" finished-at="2020-03-28T03:32:25Z">
+    <test name="example run2" duration-ms="8" started-at="2020-03-29T23:25:11Z" finished-at="2020-03-29T23:25:11Z">
       <class name="com.academy.web.tests.Taller1">
-        <test-method status="PASS" signature="before()[pri:0, instance:com.academy.web.tests.Taller1@66480dd7]" name="before" is-config="true" duration-ms="14" started-at="2020-03-28T03:32:25Z" finished-at="2020-03-28T03:32:25Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.academy.web.tests.Taller1@3327bd23]" name="before" is-config="true" duration-ms="16" started-at="2020-03-29T23:25:11Z" finished-at="2020-03-29T23:25:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="iniciarSesion()[pri:0, instance:com.academy.web.tests.Taller1@1f28c152]" name="iniciarSesion" is-config="true" duration-ms="1" started-at="2020-03-28T03:32:25Z" finished-at="2020-03-28T03:32:25Z">
+        <test-method status="PASS" signature="iniciarSesion()[pri:2, instance:com.academy.web.tests.Taller1@4b4523f8]" name="iniciarSesion" duration-ms="2" started-at="2020-03-29T23:25:11Z" finished-at="2020-03-29T23:25:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iniciarSesion -->
-        <test-method status="PASS" signature="cancelarCuenta()[pri:2, instance:com.academy.web.tests.Taller1@1f28c152]" name="cancelarCuenta" duration-ms="2" started-at="2020-03-28T03:32:25Z" finished-at="2020-03-28T03:32:25Z">
+        <test-method status="PASS" signature="cancelarCuenta()[pri:3, instance:com.academy.web.tests.Taller1@4b4523f8]" name="cancelarCuenta" duration-ms="1" started-at="2020-03-29T23:25:11Z" finished-at="2020-03-29T23:25:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cancelarCuenta -->
-        <test-method status="PASS" signature="verificarCuenta()[pri:0, instance:com.academy.web.tests.Taller1@1f28c152]" name="verificarCuenta" is-config="true" duration-ms="0" started-at="2020-03-28T03:32:25Z" finished-at="2020-03-28T03:32:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verificarCuenta -->
-        <test-method status="PASS" signature="cerrarSesion()[pri:0, instance:com.academy.web.tests.Taller1@1f28c152]" name="cerrarSesion" is-config="true" duration-ms="0" started-at="2020-03-28T03:32:25Z" finished-at="2020-03-28T03:32:25Z">
+        <test-method status="PASS" signature="cerrarSesion()[pri:0, instance:com.academy.web.tests.Taller1@4b4523f8]" name="cerrarSesion" is-config="true" duration-ms="1" started-at="2020-03-29T23:25:11Z" finished-at="2020-03-29T23:25:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cerrarSesion -->
